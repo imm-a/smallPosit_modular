@@ -1,0 +1,711 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlCircuitAnnotation",
+    "circuit":{
+      "info":{
+        
+      },
+      "modules":[
+        {
+          "info":{
+            
+          },
+          "name":"PAdder4_8_2",
+          "ports":[
+            {
+              "info":{
+                
+              },
+              "name":"clock",
+              "direction":{
+                
+              },
+              "tpe":{
+                
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"reset",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":1
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_greaterSig",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":5
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_smallerSig",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":8
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_greaterSign",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":1
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_smallerSign",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":1
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_signSumSig",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":9
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_sumSign",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":1
+                }
+              }
+            }
+          ],
+          "body":{
+            "stmts":[
+              {
+                "stmts":[
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 22:34"
+                      }
+                    },
+                    "name":"_T",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_greaterSig",
+                          "tpe":{
+                            "width":{
+                              "width":5
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        4,
+                        4
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 22:67"
+                      }
+                    },
+                    "name":"_T_1",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_smallerSig",
+                          "tpe":{
+                            "width":{
+                              "width":8
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        7,
+                        7
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 22:50"
+                      }
+                    },
+                    "name":"rawSumSig",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_1",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 24:36"
+                      }
+                    },
+                    "name":"_T_2",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_greaterSign",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"io_smallerSign",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 24:69"
+                      }
+                    },
+                    "name":"_T_3",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"rawSumSig",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        1
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 25:51"
+                      }
+                    },
+                    "name":"_T_5",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"rawSumSig",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        1
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 25:69"
+                      }
+                    },
+                    "name":"_T_6",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_smallerSig",
+                          "tpe":{
+                            "width":{
+                              "width":8
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        2,
+                        0
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":3
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Cat.scala 29:58"
+                      }
+                    },
+                    "name":"_T_9",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "op":{
+                            
+                          },
+                          "args":[
+                            {
+                              "name":"io_sumSign",
+                              "tpe":{
+                                "width":{
+                                  "width":1
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            },
+                            {
+                              "name":"_T_5",
+                              "tpe":{
+                                "width":{
+                                  "width":1
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            }
+                          ],
+                          "consts":[
+                            
+                          ],
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          }
+                        },
+                        {
+                          "op":{
+                            
+                          },
+                          "args":[
+                            {
+                              "name":"_T_6",
+                              "tpe":{
+                                "width":{
+                                  "width":3
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            },
+                            {
+                              "value":0,
+                              "width":{
+                                "width":2
+                              }
+                            }
+                          ],
+                          "consts":[
+                            
+                          ],
+                          "tpe":{
+                            "width":{
+                              "width":5
+                            }
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":7
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "stmts":[
+                      {
+                        
+                      },
+                      {
+                        "info":{
+                          "info":{
+                            "string":"PAdder.scala 25:18"
+                          }
+                        },
+                        "loc":{
+                          "name":"io_signSumSig",
+                          "tpe":{
+                            "width":{
+                              "width":9
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        "expr":{
+                          "op":{
+                            
+                          },
+                          "args":[
+                            {
+                              "name":"_T_9",
+                              "tpe":{
+                                "width":{
+                                  "width":7
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            }
+                          ],
+                          "consts":[
+                            9
+                          ],
+                          "tpe":{
+                            "width":{
+                              "width":9
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"PAdder.scala 24:18"
+                      }
+                    },
+                    "loc":{
+                      "name":"io_sumSign",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_2",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "main":"PAdder4_8_2"
+    }
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~PAdder4_8_2|PAdder4_8_2>io_signSumSig",
+    "sources":[
+      "~PAdder4_8_2|PAdder4_8_2>io_sumSign",
+      "~PAdder4_8_2|PAdder4_8_2>io_smallerSig",
+      "~PAdder4_8_2|PAdder4_8_2>io_greaterSign",
+      "~PAdder4_8_2|PAdder4_8_2>io_smallerSign",
+      "~PAdder4_8_2|PAdder4_8_2>io_greaterSig"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~PAdder4_8_2|PAdder4_8_2>io_sumSign",
+    "sources":[
+      "~PAdder4_8_2|PAdder4_8_2>io_greaterSign",
+      "~PAdder4_8_2|PAdder4_8_2>io_smallerSign",
+      "~PAdder4_8_2|PAdder4_8_2>io_greaterSig",
+      "~PAdder4_8_2|PAdder4_8_2>io_smallerSig"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"./run/rtl/PAdder"
+  },
+  {
+    "class":"firrtl.stage.InfoModeAnnotation",
+    "modeName":"append"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"PAdder4_8_2"
+  },
+  {
+    "class":"firrtl.stage.OutputFileAnnotation",
+    "file":"PAdder4_8_2"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"./run/rtl/PAdder"
+  }
+]

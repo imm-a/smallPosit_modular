@@ -1,0 +1,8 @@
+#Successful Tests
+#Thu Sep 16 15:19:47 CEST 2021
+posit.wave.PositAdderSpec=1631798299112
+posit.wave.PositDivSqrtSpec=1631798364685
+posit.wave.PositEMASpec=1631798350704
+posit.wave.PositMulSpec=1631798314171
+posit.wave.PositFMASpec=1631798329756
+posit.wave.QuireToPositSpec=1631798387304

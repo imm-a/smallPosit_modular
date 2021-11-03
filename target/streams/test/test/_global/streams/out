@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.PositMulSpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.PositAdderSpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.PositEMASpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.PositDivSqrtSpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPositMulSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mposit multiplier module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly multiply posit types[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.PositFMASpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPositDivSqrtSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mposit divsqrt module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly div/sqrt posit types[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(posit.wave.QuireToPositSpec, org.scalatest.tools.Framework$$anon$1@2a298c81, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPositAdderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mposit adder module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly add posit types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPositFMASpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mposit fma module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly mul/add posit types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPositEMASpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mposit ema module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly mul/add posit<4, 0> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly mul/add posit<8, 0> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly mul/add posit<8, 1> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly mul/add posit<8, 2> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mQuireToPositSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mquire to posit module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly convert to posit<4, 0> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly convert to posit<8, 0> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly convert to posit<8, 1> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should properly convert to posit<8, 2> types[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 35 seconds, 672 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.PositMulSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.QuireToPositSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.PositFMASpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.PositDivSqrtSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.PositEMASpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	posit.wave.PositAdderSpec[0m
