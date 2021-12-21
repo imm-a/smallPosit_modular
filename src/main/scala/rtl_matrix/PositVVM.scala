@@ -1,4 +1,4 @@
-import chisel3._
+/*import chisel3._
 import chisel3.util._
 import posit.function._
 import posit.function.Shift._
@@ -50,5 +50,5 @@ val fmaxs = for (i <- 0 until (units-1)) yield
     io.out := Fout(units-1)
     io.outValid := outV(units-1)
 }
-
+*/
 

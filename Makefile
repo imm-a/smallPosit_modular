@@ -30,7 +30,7 @@ muldec_rtl:
 	@sbt 'runMain posit.make.MakePositMulDec'
 	@find ./run/rtl/PositMulDec/* | grep -v "\.v" | xargs rm -f
 muls_rtl:
-	@rm -rf ./run/rtl/PositAdder
+	#@rm -rf ./run/rtl/PositAdder
 	@sbt 'runMain posit.make.MakePositMul'
 	@find ./run/rtl/PositMul/* | grep -v "\.v" | xargs rm -f
 mulenc_rtl:

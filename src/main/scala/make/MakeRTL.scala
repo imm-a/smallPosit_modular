@@ -82,7 +82,7 @@ object MakePositMul extends App {
 	val (nBits, eBits) = ReadConfig.readPosit("posit.conf")
 	val td = Array("-td", "./run/rtl/PositMul")
 	for(i <- 0 until nBits.length) {
-		chisel3.Driver.execute(td, () => new PositMul(nBits(i), eBits(i)))
+		chisel3.Driver.execute(td, () => new PositMul(nBits(i), eBits(i))) //(nBits(i)-eBits(i)-3)))
 	}
 }
 object MakePositMulEnc extends App {
