@@ -47,3 +47,7 @@ Encoder: mulenc_rtl
  - Set the parameter mw in src/main/scala/make/MakeRTL.scala to the number of bits to be removed.
  - Repeat for XOR multiplier but make sure to set desired parameters in MakeRTL.scala
  - Modify posit.conf as required. The RTL codes are obtained in run/rtl/PositMul
+
+**GEMV code present in src/main/scala/rtl_matrix**
+
+This unit utilizes the existing FMA in a pipeline
