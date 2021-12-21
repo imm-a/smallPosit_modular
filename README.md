@@ -43,7 +43,7 @@ Encoder: mulenc_rtl
 ```
 **Approximate multiplier**
 
-Reduced precision multiplier can be enabled by uncommenting the required function in PositMul.scala 
-Set the parameter mw in src/main/scala/make/MakeRTL.scala to the number of bits to be removed.
-Repeat for XOR multiplier but make sure to set desired parameters in MakeRTL.scala
-Modify posit.conf as required. The RTL codes are obtained in run/rtl/PositMul
+ - Reduced precision multiplier can be enabled by uncommenting the required function in PositMul.scala 
+ - Set the parameter mw in src/main/scala/make/MakeRTL.scala to the number of bits to be removed.
+ - Repeat for XOR multiplier but make sure to set desired parameters in MakeRTL.scala
+ - Modify posit.conf as required. The RTL codes are obtained in run/rtl/PositMul
