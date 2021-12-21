@@ -52,4 +52,4 @@ Encoder: mulenc_rtl
 
 **GEMV code present in src/main/scala/rtl_matrix**
 
-This unit utilizes the existing FMA in a pipeline
+This unit utilizes the existing FMA in a pipeline with a systolic array structure
