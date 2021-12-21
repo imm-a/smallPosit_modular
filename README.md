@@ -41,6 +41,8 @@ Decoder: muldec_rtl
 Multiplier: muls_rtl 
 Encoder: mulenc_rtl 
 ```
+**Comment out codes in rtl_matrix folder before running**
+
 **Approximate multiplier**
 
  - Reduced precision multiplier can be enabled by uncommenting the required function in PositMul.scala 
