@@ -41,5 +41,8 @@ Decoder: muldec_rtl
 Multiplier: muls_rtl 
 Encoder: mulenc_rtl 
 ```
-Approximate reduced precision multiplier can be enabled by setting the parameter mw to the number of bits to be removed.
-Uncomment code for xor multiplier.
+Approximate multiplier"
+Reduced precision multiplier can be enabled by uncommenting the required function in PositMul.scala 
+Set the parameter mw in src/main/scala/make/MakeRTL.scala to the number of bits to be removed.
+Repeat for XOR multiplier but make sure to set desired parameters in MakeRTL.scala
+Modify posit.conf as required.
